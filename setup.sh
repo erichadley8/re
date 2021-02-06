@@ -9,3 +9,4 @@ mv ./sadsdasadsad/upload/* /var/www/html/
 rm /var/www/html/index.html
 echo "create database fuckyou" | mysql -u root -p
 mysql -u root -p fuckyou < ./sadsdasadsad/sql/avs.sql
+rm -r sadsdasadsad
